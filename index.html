@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unstop</title>
+    <link rel="stylesheet" href="front1.css">
+    <style>
+        .icon-png:hover {
+            transition: 0.4s;
+            fill: #1c4980;
+            transform: translate(0, -10px);
+            text-decoration: underline;
+            text-decoration-color: #1c4980;
+            text-decoration-thickness: 40%;
+
+        }
+
+        .icon-png1:hover {
+            transition: 0.4s;
+            fill: white;
+            transform: translate(0, -10px);
+            text-decoration: underline;
+            text-decoration-color: whitesmoke;
+            text-decoration-thickness: 40%;
+        }
+
+        .Picture-1 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-learn.png?d=324x406);
+            background-size: cover;
+            border-radius: 5px;
+
+        }
+
+        .Picture-1:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-2:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-3:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-4:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-5:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-6:hover {
+            transition: 0.3s;
+            transform: translate(0, -10px);
+            cursor: pointer;
+        }
+
+        .Picture-2 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-practice.png?d=324x406);
+            background-size: cover;
+            border-radius: 5px;
+
+        }
+
+        .Picture-3 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-mentorships.png?d=324x406);
+            background-size: cover;
+            border-radius: 5px;
+
+        }
+
+        .Picture-4 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-compete.png?d=324x406);
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            border-radius: 5px;
+
+        }
+
+        .Picture-5 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-jobs.png?d=324x406);
+            background-size: cover;
+            border-radius: 5px;
+
+        }
+
+        .Picture-6 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-blogs.png?d=324x406);
+            background-size: cover;
+            border-radius: 5px;
+        }
+
+        .items span {
+
+            padding: 5px;
+            display: inline-block;
+            position: relative;
+            height: 200px;
+            width: 160px;
+
+
+
+        }
+
+        .items {
+
+            transition: 0.3s;
+        }
+
+        .items:hover {
+            transform: translate(0, -10px);
+        }
+
+        .Image:hover {
+            transform: translate(0, -10px);
+            transition: 0.3s;
+        }
+
+        .open-1 {
+            background-image: url(https://cdn.unstop.com/uploads/images/compete/student.png?d=560x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open-1:hover,
+        .open-2:hover,
+        .open-3:hover,
+        .open-4:hover,
+        .open1-1:hover,
+        .open1-2:hover,
+        .open1-3:hover,
+        .open1-4:hover {
+            transform: translate(0, -10px);
+            transition: 0.3s;
+
+        }
+
+        .open-2 {
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63d112f8a025d_professional.png?d=560x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open-3 {
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da479e86649_teams_new.png?d=560x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open-4 {
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da47fe2c821_solo_new.png?d=560x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open1-1 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/job.png?d=570x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open1-2 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/internship.png?d=570x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open1-3 {
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da479e86649_teams_new.png?d=560x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .open1-4 {
+            background-image: url(https://cdn.unstop.com/uploads/images/home/paid-internship.png?d=570x340);
+            border-radius: 13%;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            height: 170px;
+            width: 280px;
+        }
+
+        .toopen {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 60px;
+            margin-left: 0px;
+            margin-right: 300px;
+        }
+
+        .toopen1 {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 60px;
+            margin-left: 1250px;
+            margin-right: 300px;
+        }
+
+        .toopen2 {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-left: 50px;
+            transform: rotate(180deg);
+            margin-right: 300px;
+        }
+
+        .toopen3 {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-left: 1400px;
+            margin-right: 300px;
+            margin-bottom: 40px;
+        }
+
+        .toopen4 {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 350px;
+            margin-left: 590px;
+            margin-right: 300px;
+            margin-bottom: 40px;
+        }
+
+        .toopen5 {
+            position: absolute;
+            background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+            width: 41px;
+            height: 102px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-left: 50px;
+            transform: rotate(90deg);
+            margin-right: 300px;
+        }
+    </style>
+</head>
+
+<body style="color:#1c4980">
+    <nav id="nav" style="display: flex; box-shadow: 0 4px 3px rgba(2, 1, 1, 0.12); background-color:white">
+        <a href="#">
+            <img class="icon-png" src="images/logo.png" alt="Unstop" style=" margin:20px 0px 0px 150px"
+                height="30px"></a>
+
+        <h1 style=" margin:20px 20px 0px 20px">|</h1>
+        <strong>
+            <p>Formely <br>
+                <strong>Dare2Compete</strong>
+            </p>
+        </strong>
+        <div
+            style=" margin-top:15px; margin-left:25px;height:35px; width:19%; padding:4px; border-radius: 15px; color:#1c4980; box-sizing:border-box; border: 2px solid; outline:none; ">
+            <input style=" border:none; outline:none; color:#1c4980; background-color:white;" type="text"
+                placeholder="Search Opportunities">
+        </div>
+        <div style="display: inline-flex;" class="Icon">
+            <p class="icon-png" style="margin-left: 90px; font-size:13px; color:#1c4980; cursor:pointer"><img
+                    src="images/reading-book.png" height="25px" style="margin-left:9px; margin-bottom:5px;"><br>LEARN
+            </p>
+            <p class="icon-png" style="margin-left: 20px; font-size:13px; color:#1c4980; cursor:pointer"><img
+                    src="images/target.png" alt="" height="24px"
+                    style="margin-left:17px; margin-bottom:5px;"><br>PRACTICE</p>
+            <p class="icon-png" style="margin-left: 17px; font-size:13px; color:#1c4980; cursor:pointer"><img
+                    src="images/bar-chart.png" alt="" height="24px"
+                    style="margin-left:13px; margin-bottom:5px;"><br>COMPETE</p>
+            <P class="icon-png" style="margin-left: 17px; font-size:13px; color:#1c4980; cursor:pointer"><img
+                    src="images/lightbulb.png" alt="" height="24px"
+                    style="margin-left:25px; margin-bottom:5px;"><br>MENTORSHIP</P>
+            <p class="icon-png" style="margin-left: 17px; font-size:13px; color:#1c4980; cursor:pointer"><img
+                    src="images/job-seeker.png" alt="" height="24px"
+                    style="margin-left:4px; margin-bottom:5px;"><br>JOBS</p>
+
+            <!-- <div style="margin-left: 100px; background-color: #1c4980; border-radius:13%; color:white" height="0" width="2px"></div> -->
+        </div>
+        <div style="display: flex;">
+            <div>
+                <button class="icon-png1"
+                    style="margin:20px 0 0 40px; background-color: #1C4980; border-radius:50px; color:white; height:30px; width:80px;cursor:pointer">HOST</button>
+            </div>
+            <br>
+            <div>
+                <button class="icon-png1"
+                    style="margin: 20px 0 0 10px; background-color: #0073e6; border-radius:50px; color:white; height:30px; width:80px; cursor:pointer">LOGIN
+                </button>
+            </div>
+            <div><img src="https://cdn.unstop.com/uploads/images/unstop/menu_icons/hamburger_icon.svg" alt=""
+                    style="margin:25px 0 0 15px; cursor:pointer"></div>
+        </div>
+
+    </nav>
+
+    <div>
+        <div class="top-left" style="width:40%; float:left; padding:70px;  color: #1c4980; ">
+            <div class="toopen2" style="margin-left:650px; margin-top:120px"></div>
+            <span style="font-size: 38px;">Connecting</span>
+            <h1 style="font-size: 50px;font-weight:700; margin-bottom:0px;margin-top:-5px"><strong>Talent, Colleges,
+                    <br>Recruiters</strong></h1>
+            <hr style=" border-color:#e8b200;width:50%; margin-top:50px;margin-left:0px">
+            <p style="font-size: 25px;">Explore opportunities from across the globe to learn, <br> showcase skills, gain
+                CV points,
+                & get hired by
+                your <br>dream company.</p>
+            <div class="toopen5" style="margin-left:-15px"></div>
+        </div>
+    </div>
+    </div>
+    <div class="right-part" style="  padding:80px 120px  5px;
+height: 500px;
+display: grid;
+grid-template-rows: 6fr 6fr 2fr;
+grid-template-columns: 2fr 2fr 2fr;
+column-gap:20px;
+row-gap: 20px;
+color: #1c4980;
+font-weight: 500;
+font-size: 20px;">
+        <div class="Picture-1"><span class="learn" style="margin-left: 20px;">Learn</span></div>
+        <div class="Picture-2"><span class="practice" style="margin-left: 20px;">Practice</span></div>
+        <div class="Picture-3"><span class="mentorship" style="margin-left: 20px;">Mentorship</span></div>
+        <div class="Picture-4"><span class="compete" style="margin-left: 20px;">Compete</span></div>
+        <div class="Picture-5"><span class="jobs" style="margin-left: 20px;">Jobs</span></div>
+        <div class="Picture-6"><span class="blogs" style="margin-left: 20px;">Blogs</span></div>
+        <div class="toopen4"></div>
+
+    </div>
+
+    </div>
+
+    <hr>
+    <br><br>
+    <div style="display:flex"><span><span style="font-size:30px; margin-top:50px;margin-left:20px">Industry
+                veterans</span>
+            <h1 style="margin-top:-10px;margin-left:20px">trust us:</h1>
+        </span>
+        <img src="https://1000logos.net/wp-content/uploads/2021/04/Accenture-logo.png" alt="" height="100px"
+            style="margin-left:40px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBG7Pm5vUWq0i9cLzCtf9gJFC7LFSs1fYnSDOw5QBS&s"
+            alt="" height="100px" style="margin-left:10px;">
+        <img src="https://www.adityabirla.com/Assets/images/our-download-logo.png" alt="" height="100px" width="150px"
+            style="margin-left:10px">
+        <img src="https://1000logos.net/wp-content/uploads/2018/01/Airtel-Logo.png" alt="" height="100px" width="150px"
+            style="margin-left:10px">
+        <img src="https://getvectorlogo.com/wp-content/uploads/2018/12/icici-bank-vector-logo.png" alt="" height="100px"
+            width="150px" style="margin-left:10px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNibPLN-RVALP-HAKTzra_s9b8S54gOLKlNWcR6X3h&s"
+            alt="" height="100px" width="150px" style="margin-left:10px">
+        <img src="https://thumbs.dreamstime.com/b/simple-vector-filled-flat-amazon-icon-logo-solid-black-pictogram-isolated-white-background-amazon-logo-159029074.jpg"
+            alt="" height="100px" width="150px" style="margin-left:10px">
+
+    </div>
+    <br>
+    <hr>
+    <div>
+
+        <div style="text-align:center; margin-top:100px;padding-top:0%; padding-bottom:0%;"><img
+                src="https://d8it4huxumps7.cloudfront.net/images/home-page-banner/6410337593d19_hp-min.jpg?d=1266x494"
+                alt="" height="350px" width="900px"></div>
+        <div class="toopen3"></div>
+        <div style=" margin-top:100px; display:flex;padding-bottom:0">
+            <img class="Image" src="https://cdn.unstop.com/uploads/images/home/learn-bg-image.png?d=747x534" alt=""
+                height="250px" style="margin-left:150px">
+
+            <img class="Image" src="https://cdn.unstop.com/uploads/images/home/practice-bg-image.png?d=747x533" alt=""
+                height="250px" style="margin-left:60px">
+            <img class="Image" src="https://cdn.unstop.com/uploads/images/home/mentorships-bg-new.png?d=747x534" alt=""
+                height="250px" style="margin-left:60px; margin-right: 150px">
+        </div>
+    </div>
+
+    <div style="padding-top:0%; padding-bottom:0%">
+        <div class="toopen2">
+
+        </div>
+        <h1 style="margin-left:150px; margin-top:100px">Explore Opportunities</h1>
+        <p style="margin-left:150px; font-size:20px">Participate, Showcase Skills & Gain CV Points through online &
+            offline opportunities of your interest & make your mark!</p>
+    </div>
+    <br>
+    <div style="display: flex">
+        <div style="margin-left:150px;" class="open-1">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>College</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Students</strong></span>
+        </div>
+
+
+        <div style="margin-left:18px" class="open-2">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Working</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Professionals</strong></span>
+
+        </div>
+
+
+
+        <div style="margin-left:18px" class="open-3">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Team</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Participation</strong></span>
+
+        </div>
+
+        <div style="margin-left:18px" class="open-4">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Individual</strong><br>
+                <span style="font-size:23px; color:black; margin-left:20px"><strong>Participation</strong></span>
+        </div>
+    </div>
+
+
+    <div style="padding-top:0%; padding-bottom:0%">
+        <h1 style="margin-left:150px; margin-top:100px">Get Hired</h1>
+        <p style="margin-left:150px; font-size:20px">Work with your dream companies by applying to hiring challenges and
+            full-time & part-time jobs/internships.</p>
+    </div>
+    <div style="display:flex; padding-bottom:50px">
+
+        <div style="margin-left:150px" class="open1-1">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Full-time</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Jobs</strong></span>
+        </div>
+
+
+        <div style="margin-left:18px" class="open1-2">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Part-Time</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Internships</strong></span>
+
+        </div>
+
+
+
+        <div style="margin-left:18px" class="open1-3">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Hiring</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>challenges</strong></span>
+
+        </div>
+
+        <div style="margin-left:18px" class="open1-4">
+            <span style="color:black; margin-left:20px;">Open to</span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Paid</strong></span><br>
+            <span style="font-size:23px; color:black; margin-left:20px"><strong>Internships</strong></span>
+
+        </div>
+    </div>
+
+    <div style="background-color: rgb(220, 214, 214);height:500px;width:1180px;margin-left:150px;border-radius:5%">
+        <div>
+            <br>
+            <div>
+                <span style="margin-left:50px"><strong style="font-size:40px;">Featured Opportunities</strong><br>
+                    <p style="font-size:20px; margin-left:50px;">Participate in these exceptional opportunities curated
+                        for the exceptional you!
+                    <div class="toopen1">
+
+                    </div>
+                    </p>
+                </span>
+            </div>
+            <div style="margin-left:45px"><img src="https://siva222003.github.io/unstop_clone/scroller.jpg" alt="">
+
+            </div>
+
+        </div>
+
+        <br>
+        <img style="margin-top:70px"
+            src="https://cdn.unstop.com/uploads/images/unstop/mentorship1180x280.jpg?d=1180x280" alt="">
+        <div style="display: flex; margin-left: 50px;">
+            <h1 style="font-weight: 700;
+            font-size: 50px; color: #1c4980;"><span style="font-size: 50px; font-weight:100">Our</span>Numbers <img
+                    style="margin-bottom:5px" src="https://cdn.unstop.com/uploads/images/home/graph-icon.svg?d=38x27"
+                    alt="" height="28px"></h1>
+
+        </div>
+        <div style="height: 200px;
+        border: 1px solid #babfc3;
+        width: 900px;
+        margin-left: 50px;
+        border-radius: 30px 30px 0px 30px;
+        display: flex;">
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color:#1c4980;margin-top:28px;margin-left:10px;background-color: #c3d6ed;
+                border-radius: 100%;
+                border-right: #e9c0bb;">
+                ~5Mn <br><span style="font-size:40px">Active Users</span>
+            </div>
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color:#c85b50;margin-top:28px;margin-left:10px;background-color: #efe2e1;
+                border-radius: 100%;
+                border-right: #e9c0bb;">
+                130K+ <br><span style="font-size:40px">Opportunities</span>
+            </div>
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color:#1c4980;margin-top:28px; margin-left:10px;background-color: #c3d6ed;
+                border-radius: 100%;
+                border-right: #e9c0bb;">
+                42K+ <br><span style="font-size:40px">Organisations</span>
+            </div>
+        </div>
+
+        <span class="toopen">
+
+        </span>
+        <div style="height: 200px;
+        border: 1px solid #babfc3;
+        width: 900px;
+        margin-left: 275px;
+        border-radius: 0px 30px 30px 30px;
+        display: flex;">
+
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color:#6049e4;margin-top:28px;margin-left:10px;background-color: #c6bef3;
+                border-radius: 100%;
+                border-right: #cb3521;">
+                22.3Mn+ <br><span style="font-size:40px">Assessments</span>
+            </div>
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color: #4aa46d;margin-top:28px;margin-left:10px;background-color:  #c2d8ca;
+                border-radius: 100%;
+                border-right: #e9c0bb;">
+                500+ <br><span style="font-size:40px">Brands trust us</span>
+            </div>
+            <div class="Ournumber" style="width:350px;height: 150px; text-align: center; font-size: 60px; color:#3171de;margin-top:28px; margin-left:10px;background-color: #c1d0e9;
+                border-radius: 100%;
+                border-right: #e9c0bb;">
+                78+ <br><span style="font-size:40px">Countries</span>
+            </div>
+        </div>
+
+
+        <div style="margin-top: 100px;">
+            <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/63db3ac0bfbd4_download_app_new.png?d=2360x912"
+                alt="" height="456px" width="1180px">
+        </div>
+        <br><br>
+        <img style="margin-left:45%"
+            src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/svg/unstop-logo.svg" alt="" height="60px">
+        <p style="font-size: 40px;color:black; margin-left:30%;margin-right:25%; border:1px solid black;"> About us
+            &nbsp;&nbsp;&nbsp;Contact us &nbsp;&nbsp;&nbsp; Careers</p>
+        <p style="margin-left:42.5%; font-size:40px;">
+            <a href="https://www.instagram.com/gaurang._.21/" target="_blank"
+                style="color: black;text-decoration:none;">@gaurang._.21 </a>
+            <hr style="border-color: #6049e4;">
+            <hr style="border-color:#6049e4">
+        </p>
+        <br>
+</body>
+
+</html>

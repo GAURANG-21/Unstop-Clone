@@ -1,0 +1,11 @@
+body
+{
+    color: blue;
+}
+#nav
+{
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 4px 3px black;
+}
